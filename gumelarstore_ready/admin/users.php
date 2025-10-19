@@ -1,0 +1,1 @@
+<h3>Users</h3><?php $users=$pdo->query("SELECT * FROM users ORDER BY id DESC")->fetchAll(); ?><table class="table"><tr><th>ID</th><th>Username</th><th>Email</th></tr><?php foreach($users as $u): ?><tr><td><?php echo $u['id']; ?></td><td><?php echo esc($u['username']); ?></td><td><?php echo esc($u['email']); ?></td></tr><?php endforeach; ?></table>

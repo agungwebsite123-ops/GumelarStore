@@ -1,0 +1,4 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Admin Login</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"></head><body>
+<div class="container" style="max-width:420px;margin-top:80px"><h3>Admin Login</h3>
+<?php if (!empty($admin_err)) echo "<div class='alert alert-danger'>".esc($admin_err)."</div>"; ?>
+<form method="post" action="index.php?page=admin"><div class="mb-3"><label>Username</label><input class="form-control" name="username" required></div><div class="mb-3"><label>Password</label><input class="form-control" type="password" name="password" required></div><button class="btn btn-primary">Login</button></form></div></body></html>

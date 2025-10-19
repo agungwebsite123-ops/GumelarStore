@@ -1,0 +1,6 @@
+:root{--primary:#00bfa6;--secondary:#ff6ec7;--accent:#ffd54f;--background:#e0f7fa}
+body{font-family:Poppins,Arial,sans-serif;background:var(--background);color:#333;margin:0;padding:0}
+.navbar-brand{background:linear-gradient(90deg,var(--primary),var(--secondary));-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:700}
+.hero{background:linear-gradient(135deg,rgba(255,255,255,0.6),rgba(255,255,255,0.3));border-radius:12px;margin-bottom:20px;padding:20px}
+.btn-gradient{background:linear-gradient(90deg,var(--secondary),var(--primary));border:none;color:#fff}
+.card{border-radius:12px}
